@@ -1,0 +1,23 @@
+{
+  "name": "vue-round-filter",
+  "version": "1.0.0",
+  "description": "round number with whichever decimal accuracy",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rascada/vue-round-filter.git"
+  },
+  "keywords": [
+    "vue",
+    "round",
+    "filter",
+    "decimal",
+    "accuracy"
+  ],
+  "author": "Damian Martyniak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rascada/vue-round-filter/issues"
+  },
+  "homepage": "https://github.com/rascada/vue-round-filter#readme"
+}
