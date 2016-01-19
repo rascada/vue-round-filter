@@ -32,9 +32,9 @@ If you're need to keep decimal accuracy, pass `true` as second argument
 let int = 3;
 ```
 ```html
-<span> {{ pi | round 2 }} </span>
+<span> {{ int | round 3 }} </span>
 <span> 3 </span>
 
-<span> {{ pi | round 2 true }} </span>
-<span> 3.00 </span>
+<span> {{ int | round 3 true }} </span>
+<span> 3.000 </span>
 ```
