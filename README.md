@@ -12,7 +12,7 @@ import round from 'vue-round-filter';
 new Vue({
   filters: {
     round,
-  }
+  },
 });
 ```
 ## usage
@@ -29,7 +29,7 @@ let pi = 3.14159265359;
 If you're need to keep decimal accuracy, pass `true` as second argument
 
 ```javascript
-let int = 3.00;
+let int = 3;
 ```
 ```html
 <span> {{ pi | round 2 }} </span>
