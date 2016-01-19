@@ -1,6 +1,6 @@
 {
   "name": "vue-round-filter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "round number with whichever decimal accuracy",
   "main": "index.js",
   "repository": {
