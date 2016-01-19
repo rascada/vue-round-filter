@@ -1,6 +1,21 @@
 # vue-round-filter
-round number with whichever decimal accuracy
+#### round number with whichever decimal accuracy
 
+## installation
+
+```javascript
+let round = require('vue-round-filter');
+// or es6
+import round from 'vue-round-filter';
+```
+```javascript
+new Vue({
+  filters: {
+    round,
+  }
+});
+```
+## usage
 ```javascript
 let pi = 3.14159265359;
 ```
