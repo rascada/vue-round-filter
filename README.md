@@ -4,9 +4,7 @@
 ## installation
 
 ```javascript
-let round = require('vue-round-filter');
-// or es6
-import round from 'vue-round-filter';
+const round = require('vue-round-filter');
 ```
 ```javascript
 new Vue({
