@@ -21,7 +21,7 @@ let pi = 3.14159265359;
 <span> {{ pi | round }} </span>
 <span> 3 </span>
 
-<span> {{ pi | round 2 }} </span>
+<span> {{ pi | round(2) }} </span>
 <span> 3.14 </span>
 ```
 If you're need to keep decimal accuracy, pass `true` as second argument
@@ -30,9 +30,9 @@ If you're need to keep decimal accuracy, pass `true` as second argument
 let int = 3;
 ```
 ```html
-<span> {{ int | round 3 }} </span>
+<span> {{ int | round(3) }} </span>
 <span> 3 </span>
 
-<span> {{ int | round 3 true }} </span>
+<span> {{ int | round(3, true) }} </span>
 <span> 3.000 </span>
 ```
